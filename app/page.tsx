@@ -22,7 +22,7 @@ export default function Home() {
           />
 
           <Link
-            href={`/csr?name=${pokemonName}`}
+            href={`/csr?name=${pokemonName.toLowerCase()}`}
             className="border border-black p-3 hover:bg-gray-50 transition"
           >
             Go to CSR
